@@ -1,0 +1,29 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+header {
+    width: 100%;
+    text-align: center;
+    color: yellow;
+    background-color: blue;
+    position: fixed;
+}
+
+img {
+    padding-top: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+figure{
+    font-style: italic;
+}
+.infoform {
+    align: center;
+}
+
+.image {
+    width: 100%;
+    align: center;
+}
