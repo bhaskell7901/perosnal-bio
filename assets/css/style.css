@@ -1,17 +1,58 @@
+:root {
+    --header-bg: #0F06A4;
+    --txt-color: #91B600;
+    --footer-bg: #8E2E00;
+    --gradient: linear-gradient(#faf0f4, #f891b7);
+    --dark-accent: #4b8a9d;
+    --medium-accent: #d7aebc;
+    --body-bg: #f3f3f3;
+}
+
+
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin: 0;
     padding: 0;  
   }
 
+body {
+    background-color: var(--body-bg);
+}
+
 header {
-    background-color: #0D1987;
-    color: #AAEF27;
-    width: 100%;
-    height: 50px;
-    line-height: 40px;
-    text-align: center;
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--header-bg);
+    color: var(--txt-color);
+    width: 100%;
+}
+
+a {
+    color: var(--txt-color);
+}
+header h1 {
+    font-size: 250%;
+    padding: 15px;
+}
+
+header > h1 > span {
+    letter-spacing: -.18em;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+nav > ul > li {
+    padding: 10px;
+}
+
+nav > ul > li > a:hover {
+    color: #AAEF27;
 }
 
 main {
@@ -19,14 +60,12 @@ main {
 }
 
 footer {
-    background-color: #6B0015;
-    color: #AAEF27;
+    background-color: var(--footer-bg);
+    color: var(--txt-color);
     width: 100%;
     height: 50px;
     line-height: 40px;
     text-align: center;
-    position: fixed;
-
 }
 
 figure {
