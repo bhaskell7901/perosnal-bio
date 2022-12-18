@@ -6,7 +6,7 @@
     --gradient: linear-gradient(#faf0f4, #f891b7);
     --dark-accent: #4b8a9d;
     --medium-accent: #d7aebc;
-    --body-bg: #BDC1CB;
+    --body-bg: #E8EBF4;
 }
 
 
@@ -47,14 +47,15 @@ h2 {
     margin: 25px;
     padding-bottom: 12px;
     border-bottom: 3px;
-    border-bottom-color: #011B56;
+    border-bottom-color: #B9C4DF;
     border-bottom-style: solid;
-    color: #000614;
+    color: #123585;
 }
 
 p {
     font-size: 10pt;
     text-align: left;
+    margin:30px;
 }
 
 nav > ul {
@@ -88,8 +89,6 @@ footer {
 
 section > img {
     margin-top:80px;
-    border: #f891b7;
-    border-width: 3px;
 }
 
 img {
@@ -98,12 +97,12 @@ img {
     align-content: center;
 }
 
-.pic {
-    border-color: #667B00;
-    border: 5px;
+.card {
+    margin: 10px;
+    border-color: #B9C4DF;
+    border-width: 3px;
     border-style: solid;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-radius: 25px;
     padding: 12px;
 }
 
