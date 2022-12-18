@@ -1,11 +1,12 @@
 :root {
     --header-bg: #06297A;
-    --txt-color: #ACB67C;
+    --hdr-txt-color: #ACB67C; 
+    --txt-color: #A97283;
     --footer-bg: #A30031;
     --gradient: linear-gradient(#faf0f4, #f891b7);
     --dark-accent: #4b8a9d;
     --medium-accent: #d7aebc;
-    --body-bg: #5A657E;
+    --body-bg: #BDC1CB;
 }
 
 
@@ -24,13 +25,14 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: var(--header-bg);
-    color: var(--txt-color);
+    color: var(--hdr-txt-color);
     width: 100%;
 }
 
 a {
-    color: var(--txt-color);
+    color: var(--hdr-txt-color);
 }
+
 header h1 {
     font-size: 250%;
     padding: 15px;
@@ -38,6 +40,21 @@ header h1 {
 
 header > h1 > span {
     letter-spacing: -.18em;
+}
+
+h2 {
+    font-size: 180%;
+    margin: 25px;
+    padding-bottom: 12px;
+    border-bottom: 3px;
+    border-bottom-color: #011B56;
+    border-bottom-style: solid;
+    color: #000614;
+}
+
+p {
+    font-size: 10pt;
+    text-align: left;
 }
 
 nav > ul {
@@ -70,16 +87,24 @@ footer {
 }
 
 section > img {
-    padding: 5px;
+    margin-top:80px;
     border: #f891b7;
     border-width: 3px;
 }
 
 img {
-    padding-top: 100px;
-    width: 210px;
     height: 350px;
+    width: 290px;
     align-content: center;
+}
+
+.pic {
+    border-color: #667B00;
+    border: 5px;
+    border-style: solid;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 12px;
 }
 
 label {
