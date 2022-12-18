@@ -1,11 +1,11 @@
 :root {
-    --header-bg: #0F06A4;
-    --txt-color: #91B600;
-    --footer-bg: #8E2E00;
+    --header-bg: #06297A;
+    --txt-color: #ACB67C;
+    --footer-bg: #A30031;
     --gradient: linear-gradient(#faf0f4, #f891b7);
     --dark-accent: #4b8a9d;
     --medium-accent: #d7aebc;
-    --body-bg: #f3f3f3;
+    --body-bg: #5A657E;
 }
 
 
@@ -52,11 +52,12 @@ nav > ul > li {
 }
 
 nav > ul > li > a:hover {
-    color: #AAEF27;
+    color: #B2D507;
 }
 
 main {
     padding: 5px;
+    text-align: center;
 }
 
 footer {
@@ -68,14 +69,17 @@ footer {
     text-align: center;
 }
 
-figure {
-
+section > img {
+    padding: 5px;
+    border: #f891b7;
+    border-width: 3px;
 }
-                                       
+
 img {
     padding-top: 100px;
-    width: 150x;
-    height: 150px;
+    width: 210px;
+    height: 350px;
+    align-content: center;
 }
 
 label {
