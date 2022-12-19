@@ -29,15 +29,6 @@ header {
     width: 100%;
 }
 
-main {
-    padding: 5px;
-    text-align: center;
-}
-
-a {
-    color: var(--hdr-txt-color);
-}
-
 header h1 {
     font-size: 250%;
     padding: 15px;
@@ -45,6 +36,15 @@ header h1 {
 
 header > h1 > span {
     letter-spacing: -.18em;
+}
+
+main {
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    color: var(--hdr-txt-color);
 }
 
 h2 {
@@ -57,15 +57,9 @@ h2 {
     color: #123585;
 }
 
-p {
-    font-size: 10pt;
-    text-align: left;
-    margin:30px;
-}
-
 nav > ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     list-style-type: none;
     padding-top: 40px;
 }
@@ -78,9 +72,25 @@ nav > ul > li > a:hover {
     color: #B2D507;
 }
 
-img {
-    width: 400px;
-    height: 300px;
+main > section {
+    margin: 10px;
+    border-color: #B9C4DF;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 12px;
+}
+
+#bio-pic {
+    height: 450px;
+    align-content: center;
+    margin-top:80px;
+}
+
+p {
+    font-size: 10pt;
+    text-align: left;
+    margin:30px;
 }
 
 .projects-list {
@@ -90,40 +100,37 @@ img {
 }
 
 .projects-list > li:first-child {
-    width: 100%;
     flex: 1 0 100%;
 }
 
 #projects-list:not(:first-child) {
-    width: 500px;
-    flex: 1;
-} */
+    width: 100px;
+    flex: 1 0 50%;
+}
 
-.pj-card > img {
-    display: inline-block;
+.pj-card {
+    position: relative;
+}
+
+.pj-card > a > img {
+    object-fit: cover;
     border: 3px;
     padding: 20px;
     margin: 12px;
+    height: 250px;
+    max-width: 100%;
 }
 
-section > img {
-    margin-top:80px;
-}
-
-#bio-pic {
-    width: 290px;
-    height: 350px;
-    align-content: center;
-}
-
-main > section {
-    margin: 10px;
-    border-color: #B9C4DF;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 25px;
-    padding: 12px;
-}
+/* Bottom right text */
+.card-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
 label {
     display: inline-block;
